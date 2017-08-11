@@ -1,0 +1,96 @@
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position:absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  margin-top: 830px;
+  padding: 16px;
+  color: #006bb6;
+  font-weight: bold;
+  font-size: 50px;
+  transition: 1s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #dfdfdf;
+}
+
+/* Caption text */
+.text {
+  color: #dfdfdf;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 1s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+h2{
+  font-weight: bold;
+  font-size: 2.6vw;
+  margin-top: 0;
+  color: #006bb6;
+}
+
+#videogallery iframe{
+  display: block;
+  margin: auto;
+  width:70%;
+  height:600px;
+  border-style: solid;
+  border-width: 20px;
+  border-color:#006bb6;
+
+}
