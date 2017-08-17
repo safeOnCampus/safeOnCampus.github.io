@@ -57,7 +57,9 @@ $(".tl-item").each(function(i) {
 $(".tl-item:first, .tl-nav li:first").addClass("tl-active");
 
 // Slide's arrows click handlers
-$(".tl-items-arrow-left").on("click", function(){
+$(".tl-items-arrow-left").on("click", function(e){
+  e.preventDefault();
+  
   if(currentSlide > 0) {
     currentSlide--;
 
@@ -71,7 +73,8 @@ $(".tl-items-arrow-left").on("click", function(){
   }
 });
 
-$(".tl-items-arrow-right").on("click", function(){
+$(".tl-items-arrow-right").on("click", function(e){
+  e.preventDefault();
 
   if(currentSlide < totalSlides) {
     currentSlide ++;
@@ -98,7 +101,7 @@ $(".tl-nav-wrapper").append("<a href='#' class='tl-nav-arrow-left'></a><a href='
 var vpHeight  = $(window).height();
 var tlHeight = vpHeight - $(".tl-nav-wrapper").outerHeight(true) - 26;
 $(".tl-wrapper").height(vpHeight);
-$(".tl-item").css("max-height", tlHeight);
+$(".tl-item").css("max-height", "600px");
 $(".tl-item").height(tlHeight);
 
 /*** Nav's navigation... ***/
@@ -106,7 +109,8 @@ var navTranslation = 0;
 var navLimit = (navWidth - $(".tl-nav-wrapper").outerWidth(true) + 20) * -1;
 
 // To the left
-$(".tl-nav-arrow-left").on("click", function() {
+$(".tl-nav-arrow-left").on("click", function(e) {
+  e.preventDefault();
   if(navTranslation < 0) {
     navTranslation = navTranslation + 86;
     $(".tl-nav").css(prefix + "transform", "translateX(" + navTranslation + "px)");
@@ -114,7 +118,8 @@ $(".tl-nav-arrow-left").on("click", function() {
 });
 
 // To the right
-$(".tl-nav-arrow-right").on("click", function() {
+$(".tl-nav-arrow-right").on("click", function(e) {
+  e.preventDefault();
   if(navTranslation >= navLimit) {
     navTranslation = navTranslation - 86;
     $(".tl-nav").css(prefix + "transform", "translateX(" + navTranslation + "px)");

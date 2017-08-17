@@ -1,0 +1,510 @@
+/*title*/
+.topbanner{
+  background-image: url("https://www.beautycolorcode.com/006bb6-2048x1536.png");
+  height: 10vw;
+}
+.top{
+  float:left;
+  width: 39.7%;
+}
+#SAFE{
+  padding-top: .8vw;
+  line-height: 0;
+  font-size: 2vw;
+  word-wrap: break-word;
+  color: #dfdfdf;
+  font-family: 'Playfair Display';
+  text-align: center;
+}
+h1{
+  font-size: 4vw;
+  font-family: 'Playfair Display';
+  padding-left: 2vw;
+  line-height: 0;
+  padding-top: 1vw;
+  color: #dfdfdf;
+}
+
+h2{
+    font-size: 3vw;
+    font-family: 'Playfair Display';
+}
+.meet h3{
+  font-size: 2.3vw;
+  font-family: 'Playfair Display';
+  color: #006bb6;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+#contact{
+  font-size: 3vw;
+  font-family: 'Playfair Display';
+  color: #006bb6;
+  text-align: center;
+}
+#team{
+  position: absolute;
+  width: 33vw;
+  height: 67vh;
+  border-style: solid;
+  border-width: 1vw;
+  border-color: #dfdfdf;
+  right:10%;
+  margin-bottom: 3%;
+}
+#teamNames{
+  font-size: 1.6vw;
+  margin-top: 3%;
+}
+#socialmedia a{
+  padding-left: 5%;
+  color:black;
+  font-size: 2.3vw;
+  font-family: 'EB Garamond';
+  position: relative;
+  left:10%;
+  margin-top: 0
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: grey;
+}
+.timeline p{
+  text-align: left;
+  color: #dfdfdf;
+  font-family: 'Playfair Display';
+  font-size: 1.6vw;
+}
+.timeline p.source {
+  font-size: 1vw;
+  word-wrap: break-word;
+  color: #dfdfdf;
+}
+
+.timeline h3 {
+  font-size: 2.6vw;
+  margin-top: 0;
+  font-weight: 300;
+}
+
+p{
+  text-align: center;
+  font-size: 1.8vw;
+  font-family: 'Playfair Display';
+  color: #006bb6;
+}
+#whatToDo p{
+  text-align: left;
+  font-size: 1.8vw;
+  font-family: 'EB Garamond';
+  color: black;
+}
+#whatToDo strong{
+  color: #006bb6;
+  font-family: 'Playfair Display';
+}
+#button{
+background-color: #dfdfdf;
+border-width: 3px;
+color:#006bb6;
+padding:15px 32px;
+text-align: center;
+display:inline-block;
+font-size: 1.7vw;
+font-family: 'Playfair Display';
+border-color: #006bb6;
+font-weight: bold;
+}
+#twentythree{
+  font-size: 2.2vw;
+}
+b{
+  font-size: 2.2vw;
+}
+center{
+  font-size: 3vw;
+}
+#tabs{
+  font-family: 'EB Garamond';
+  padding-top: 3.5vw;
+}
+.tab{
+  float: left;
+  width: 15%;
+}
+#tabstyle{
+  color: #dfdfdf;
+  font-size: 1.8vw;
+  margin-top: 0;
+}
+#tabstyle:hover{
+  color: white;
+}
+#hometab{
+  padding-left: 5vw;
+  width: 9%;
+}
+#homemeettheteamtab{
+  padding-left: 3.5%;
+  width:18%;
+}
+#meettheteamtab{
+  padding-left: 1%;
+}
+#staysafetab{
+  padding-left: 2.5vw;
+  width:12%;
+}
+#hshareyourstorytab{
+  padding-left: 3%;
+  width:17%;
+}
+#hstaysafetab{
+  padding-left: 5%;
+  width:13%;
+}
+/*map & pins*/
+/*.homepagebackground{
+  background-image: url("http://www.htmlcsscolor.com/preview/gallery/DFDFDF.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+#usmap{
+  text-align: center;
+  height: 80vh;
+  width: 130vw;
+  padding-left: 16vw;
+  max-width: 90%;
+  margin-bottom: 5vh
+}
+#pinstanford{
+  position: absolute;
+  top: 33%;
+  left: 17%;
+  height: 8vh;
+  width: 6vh;
+}
+#pinstanford:hover{
+  height: 8vh;
+  width: 7vh;
+}
+#captionbubblestanford{
+  position:absolute;
+  height:30vh;
+  width: 36vh;
+  top: 3%;
+  left:17%;
+}
+#stanfordvideo{
+  position: absolute;
+  width: 33vh;
+  height:20vh;
+  top: 5%;
+  left:18%;
+}
+#pinvanderbilt{
+  position:absolute;
+  top:47%;
+  right:34%;
+  height: 8vh;
+  width:6vh;
+}
+#pinvanderbilt:hover{
+  height: 9vh;
+  width: 7vh;
+}
+#captionbubblevanderbilt{
+  position:absolute;
+  height:30vh;
+  width: 36vh;
+  top:16%;
+  right:33%;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+#vanderbiltvideo{
+  position: absolute;
+  width: 33vh;
+  height:20vh;
+  top: 18%;
+  right: 34%;
+}
+#pincolumbia{
+  position: absolute;
+  height: 8vh;
+  width: 6vh;
+  top: 24%;
+  right:19.5%;
+}
+#pincolumbia:hover{
+  height: 9vh;
+  width: 7vh;
+}
+#captionbubblecolumbia{
+  position:absolute;
+  height:30vh;
+  width: 36vh;
+  top:-5%;
+  right:18%;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+#columbiavideo{
+  position: absolute;
+  top: -3%;
+  right: 19%;
+  width:33vh;
+  height:20vh;
+}
+
+/*to make caption bubble and video pop up*/
+.appear a .caption {
+  display: none;
+}
+.appear a:hover .caption {
+  display: block;
+}
+.appear a .video{
+  display: none;
+}
+.appear a:hover .video{
+  display: block;
+}
+#map-container{
+  position: relative;
+}
+/*stats*/
+#oneinfivestat{
+  position: absolute;
+  height: 18vh;
+  width: 28vh;
+  top: 55%;
+  left:2%;
+}
+#undergradstat{
+  position: absolute;
+  top:1%;
+  text-align: center;
+}
+#eightypercentstat{
+  position: absolute;
+  text-align: right;
+  color: #006bb6;
+  top:1%;
+  right:0%
+}
+#firsttwoyearsstat{
+  position: absolute;
+  height: 25vh;
+  width: 15vw;
+  top: 42%;
+  right: 3%;
+}
+#womenatriskstat{
+  position: absolute;
+  height: 35vh;
+  width: 50vh;
+  top: 128%;
+  left: 7%;
+}
+#fratmemberstat{
+  position: absolute;
+  top: 95%;
+  left: 38%;
+  z-index: -1;
+}
+#twentypercentstat{
+  position: absolute;
+  color: #006bb6;
+  top: 75%;
+  right:0%;
+}
+#graphundergradstat{
+  position: absolute;
+  height: 35vh;
+  width: 60vh;
+  top: 80%;
+  left:0%;
+}
+
+/*intro video*/
+#introvideo{
+  position: relative;
+  display:block;
+  margin:auto;
+  margin-top: 18vh;
+  left:20%;
+  margin-bottom: 5%
+}
+
+#knowyourrights{
+  padding-top: 50px;
+  line-height: .7;
+  font-size: 3vw;
+  text-align: center;
+}
+th, td{
+  border: 3px solid #006bb6;
+  border-radius: 12px;
+  -moz-border-radius: 5px;
+}
+
+th{
+  width:33%;
+  font-family: 'Playfair Display';
+  font-size: 25px;
+  color: #006bb6;
+  background-color: #dfdfdf;
+  -moz-border-radius: 5px;
+
+}
+
+td{
+  text-align: left;
+  font-family: 'EB Garamond';
+  font-size: 22px;
+  vertical-align: top;
+  -moz-border-radius: 5px;
+
+}
+#table{
+  color: #006bb6;
+  font-size: 23px;
+}
+ul.icon{
+  list-style-type: none;
+  margin-top: 2px;
+}
+ul.icon li:before{
+  font-family: bullets;
+  content:"\21AA";
+  color:grey;
+  float:left;
+  width:1em;
+}
+.questions b{
+  color: #006bb6;
+  font-family: 'Playfair Display';
+  font-size: 20px;
+}
+.questions p{
+  text-align: left;
+}
+
+.question{
+  color: #006bb6;
+  font-size: 20px;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 14px;
+    height: 14px;
+    background: #006bb6;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+label{
+  font-size: 23px;
+}
+#crime{
+  font-size: 3vw;
+  font-family: 'Playfair Display';
+}
+#quizTitle{
+  top:40%;
+  font-family: 'Playfair Display';
+  font-size: 3vw;
+  text-align: center;
+}
+.fillout{
+  font-family: 'EB Garamond';
+  font-size: 18px;
+}
+form{
+  font-size: 'Playfair Display';
+  font-size: 30px;
+  line-height: 40px;
+}
+.floatComments{
+  float: left;
+  width: 45%;
+}
+.story{
+  margin-top: 30px;
+  border-width :medium;
+  border-style: solid;
+  border-color: #006bb6;
+}
+.story:nth-of-type(odd) {
+    background: #dfdfdf;
+}
+#stories{
+  margin-left: 30px;
+}
+h4{
+  text-align: left;
+  color: #006bb6;
+  font-size: 25px;
+  font-weight :normal;
+}
+#advice{
+  font-size: 35px;
+  color: #006bb6;
+  font-family: 'Playfair Display';
+}

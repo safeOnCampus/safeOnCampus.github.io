@@ -1,0 +1,214 @@
+
+<html>
+<link rel="stylesheet" type="text/css" href="homepage.css">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+<body>
+<!-- heading -->
+<div class="topbanner">
+  <div class="top">
+    <h1>S.A.F.E. on Campus</h1>
+    <h2 id="SAFE">Sexual Assault Finally Ends</h2>
+  </div>
+<!-- website tabs -->
+    <div id="tabs">
+      <div id="hometab" class="tab">
+        <a href="index.html"><h2 id="tabstyle">Home</h2></a>
+      </div>
+
+      <div id="staysafetab" class="tab">
+        <a href="staysafe.html"><h2 id="tabstyle">Stay Safe<h2></a>
+      </div>
+
+      <div id="shareyourstorytab" class="tab">
+        <a href="shareyourstory.html"><h2 id="tabstyle">Share Your Story</h2></a>
+      </div>
+
+      <div id="meettheteamtab" class="tab">
+        <a href="meettheteam.html"><h2 id="tabstyle">Meet the Team</h2></a>
+      </div>
+    </div>
+</div>
+    <h3 id = "quizTitle">Quiz: Do you know how to stay safe on campus?</h3>
+
+<div class="questions">
+
+  <p><b>1. You are at a party. You put down your cup of juice, go to the bathroom, comes back and pick the cup back up. You should:</b><br> <br></p>
+
+  <div class="question">
+  <input type = "radio" id="q1.1" name = "rad1" onclick = "getAnswer1('a')" checked><label for="q1.1">Not waste and finish the drink</label><br>
+  <input type = "radio" id="q1.2" name = "rad1" onclick = "getAnswer1('b')" checked><label for="q1.2">Toss it and get a new one </label><br>
+  <input type = "radio" id="q1.3" name = "rad1" onclick = "getAnswer1('c')" checked><label for="q1.3">Give it to your friend who is asking for a sip</label><br>
+  <input type = "radio" id="q1.4" name = "rad1" onclick = "getAnswer1('d')" checked><label for="q1.4">Add more juice to the cup</label><br>
+  </div>
+  <div id="answer1"></div>
+
+  <script type = "text/javascript">
+
+  function getAnswer1(input) {
+    if (input == "b") {
+      document.getElementById('answer1').innerHTML = "That is correct! If you leave your drink unattended, throw is out and order another one. Drink from unopened containers or drinks you watched being made and poured.";
+      document.getElementById('answer1').style.fontSize = "x-large";
+      document.getElementById("answer1").style.color = "green";
+    } else {
+      document.getElementById('answer1').innerHTML = "No, that's incorrect, please try again...";
+      document.getElementById('answer1').style.fontSize = "x-large";
+      document.getElementById("answer1").style.color = "red";
+    }
+  }
+
+  </script>
+
+  <p><b>2. You are walking home alone after partying and having a few drinks. You thought you were well enough to walk home, but you are starting to realize your not. You should:</b><br> <br></p>
+  <div class="question">
+  <input type = "radio" id="q2.1" name = "rad1" onclick = "getAnswer2('a')" checked><label for="q2.1">Keep walking and try to get home</label><br>
+  <input type = "radio" id="q2.2" name = "rad1" onclick = "getAnswer2('b')" checked><label for="q2.2">Ask a stranger for help</label><br>
+  <input type = "radio" id="q2.3" name = "rad1" onclick = "getAnswer2('c')" checked><label for="q2.3">Call campus security for an escort back to your dorm </label><br>
+  <input type = "radio" id="q2.4" name = "rad1" onclick = "getAnswer2('d')" checked><label for="q2.4">Sit on the ground until you feel better</label><br><br><br>
+  </div>
+  <div id="answer2"></div>
+
+  <script type = "text/javascript">
+
+  function getAnswer2(input) {
+    if (input == "c") {
+      document.getElementById('answer2').innerHTML = "That is correct! Although the other options may not sound too good, calling campus security is the safest option. Especially when you are alone late at night, you should seek trusted assistance from campus services, as they can take you home safely.";
+      document.getElementById('answer2').style.fontSize = "x-large";
+      document.getElementById("answer2").style.color = "green";
+    } else {
+      document.getElementById('answer2').innerHTML = "No, that's incorrect, please try again...";
+      document.getElementById('answer2').style.fontSize = "x-large";
+      document.getElementById("answer2").style.color = "red";
+    }
+  }
+
+  </script>
+
+  <p><b>3. You are at a party with your best friend. Your best friend says she's about to leave with some other girls and asks you to come along, but you want to keep partying. You should:</b><br> <br></p>
+  <div class="question">
+  <input type = "radio" id="q3.1" name = "rad1" onclick = "getAnswer3('a')" checked><label for="q3.1">Call it a night and walk home with your friends</label><br>
+  <input type = "radio" id="q3.2" name = "rad1" onclick = "getAnswer3('b')" checked><label for="q3.2">Stay and keep partying</label><br>
+  <input type = "radio" id="q3.3" name = "rad1" onclick = "getAnswer3('c')" checked><label for="q3.3">Beg her to stay with you </label><br>
+  <input type = "radio" id="q3.4" name = "rad1" onclick = "getAnswer3('d')" checked><label for="q3.4">Tell her to leave without you</label><br><br><br>
+  </div>
+  <div id="answer3"></div>
+
+  <script type = "text/javascript">
+
+  function getAnswer3(input) {
+    if (input == "a") {
+      document.getElementById('answer3').innerHTML = "That is correct! Especially at a college party, where people may be heavily intoxicated and in a situation where you may not be able to make the best decisions. Sticking with your friends in this type of situation is the best decision to keep everyone safe and accounted for.";
+      document.getElementById('answer3').style.fontSize = "x-large";
+      document.getElementById("answer3").style.color = "green";
+    } else {
+      document.getElementById('answer3').innerHTML = "No, that's incorrect, please try again...";
+      document.getElementById('answer3').style.fontSize = "x-large";
+      document.getElementById("answer3").style.color = "red";
+    }
+  }
+
+  </script>
+
+
+  <p><b>4. You are in your room alone at night and you want to shower. You should close your window that's wide open, but it's really hot and you want some air to come in. You should:</b><br> <br></p>
+
+  <div class="question">
+  <input type = "radio" id="q4.1" name = "rad1" onclick = "getAnswer4('a')" checked><label for="q4.1">Leave your window open and let some air come in</label><br>
+  <input type = "radio" id="q4.2" name = "rad1" onclick = "getAnswer4('b')" checked><label for="q4.2">Just close the curtains</label><br>
+  <input type = "radio" id="q4.3" name = "rad1" onclick = "getAnswer4('c')" checked><label for="q4.3">Leave your window halfway open</label><br>
+  <input type = "radio" id="q4.4" name = "rad1" onclick = "getAnswer4('d')" checked><label for="q4.4">Close your window and open it when you get back</label><br><br><br>
+  </div>
+  <div id="answer4"></div>
+
+  <script type = "text/javascript">
+
+  function getAnswer4(input) {
+    if (input == "d") {
+      document.getElementById('answer4').innerHTML = "That is correct! If your window isn't barred or screened, it can be very dangerous for you to leave it open unattended. Especially if you are on a lower level, you should ensure that no intruder can enter your room through the window.";
+      document.getElementById('answer4').style.fontSize = "x-large";
+      document.getElementById("answer4").style.color = "green";
+    } else {
+      document.getElementById('answer4').innerHTML = "No, that's incorrect, please try again...";
+      document.getElementById('answer4').style.fontSize = "x-large";
+      document.getElementById("answer4").style.color = "red";
+    }
+  }
+
+  </script>
+
+  <p><b>5. You are running late for a party and don't have time to charge your cellphone. You should:</b><br> <br></p>
+  <div class="question">
+  <input type = "radio" id="q5.1" name = "rad1" onclick = "getAnswer5('a')" checked><label for="q5.1">Take your chances and hope your phone doesn't die</label><br>
+  <input type = "radio" id="q5.2" name = "rad1" onclick = "getAnswer5('b')" checked><label for="q5.2">Take your portable charger with you</label><br>
+  <input type = "radio" id="q5.3" name = "rad1" onclick = "getAnswer5('c')" checked><label for="q5.3">Leave your phone home because it is dying anyways</label><br>
+  <input type = "radio" id="q5.4" name = "rad1" onclick = "getAnswer5('d')" checked><label for="q5.4">Put your phone on airplane mode</label><br><br><br>
+  </div>
+  <div id="answer5"></div>
+
+  <script type = "text/javascript">
+
+  function getAnswer5(input) {
+    if (input == "b") {
+      document.getElementById('answer5').innerHTML = "That is correct! An emergency always have a chance to occur, and you do not want to run into trouble if your phone dies on you, especially since it is a party with people you may not be acquainted with.";
+      document.getElementById('answer5').style.fontSize = "x-large";
+      document.getElementById("answer5").style.color = "green";
+    } else {
+      document.getElementById('answer5').innerHTML = "No, that's incorrect, please try again...";
+      document.getElementById('answer5').style.fontSize = "x-large";
+      document.getElementById("answer5").style.color = "red";
+    }
+  }
+
+  </script>
+
+  <p><b>6. You are walking home alone and you approach an intersection. One path is a dark shortcut that you have taken, but never at night and another path is a much longer way, but it has streetlights along the whole path. You should:</b><br> <br></p>
+  <div class="question">
+  <input type = "radio" id="q6.1" name = "rad1" onclick = "getAnswer6('a')" checked><label for="q6.1">Take the unlit shortcut home</label><br>
+  <input type = "radio" id="q6.2" name = "rad1" onclick = "getAnswer6('b')" checked><label for="q6.2">Wait for someone to walk along the path</label><br>
+  <input type = "radio" id="q6.3" name = "rad1" onclick = "getAnswer6('c')" checked><label for="q6.3">Take the longer path with streetlights home </label><br>
+  <input type = "radio" id="q6.4" name = "rad1" onclick = "getAnswer6('d')" checked><label for="q6.4">Check your phone</label><br><br><br>
+  </div>
+  <div id="answer6"></div>
+
+  <script type = "text/javascript">
+
+  function getAnswer6(input) {
+    if (input == "c") {
+      document.getElementById('answer6').innerHTML = "That is correct! Even though you may have taken the shortcut before, walking on a well-lit path that has passing cars and surveillance is the best decision. ";
+      document.getElementById('answer6').style.fontSize = "x-large";
+      document.getElementById("answer6").style.color = "green";
+    } else {
+      document.getElementById('answer6').innerHTML = "No, that's incorrect, please try again...";
+      document.getElementById('answer6').style.fontSize = "x-large";
+      document.getElementById("answer6").style.color = "red";
+    }
+  }
+
+  </script>
+
+  <p><b>7. You are at a bar alone and a man walks up to you. He keeps offering you a drink and a part of you wants to take it because it is free, but another part of you has a bad feeling about this man. You should:</b><br> <br></p>
+  <div class="question">
+  <input type = "radio" id="q7.1" name = "rad1" onclick = "getAnswer7('a')" checked><label for="q7.1">Take the drink from him so he won't keep bothering you</label><br>
+  <input type = "radio" id="q7.2" name = "rad1" onclick = "getAnswer7('b')" checked><label for="q7.2">Keep talking to him</label><br>
+  <input type = "radio" id="q7.3" name = "rad1" onclick = "getAnswer7('c')" checked><label for="q7.3">Take a sip of the drink </label><br>
+  <input type = "radio" id="q7.4" name = "rad1" onclick = "getAnswer7('d')" checked><label for="q7.4">Sternly say 'NO' and walk away</label><br><br>
+  </div>
+  <div id="answer7"></div>
+
+  <script type = "text/javascript">
+
+  function getAnswer7(input) {
+    if (input == "d") {
+      document.getElementById('answer7').innerHTML = "That is correct! We all love free things, but the wisest thing to do here is to reject the offer. This ensures that your drink is not tampered with and that you do not get into any conflict with the man.            Congratulations on completing the quiz!!";
+      document.getElementByID('answer7').innerHTML = "Congratulations on completing the quiz!!!"
+      document.getElementById('answer7').style.fontSize = "x-large";
+      document.getElementById("answer7").style.color = "green";
+    } else {
+      document.getElementById('answer7').innerHTML = "No, that's incorrect, please try again...";
+      document.getElementById('answer7').style.fontSize = "x-large";
+      document.getElementById("answer7").style.color = "red";
+    }
+  }
+
+  </script>
+</div>
+</html>

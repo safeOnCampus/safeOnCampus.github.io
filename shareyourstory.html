@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="homepage.css">
+    <link rel="html" type="text.html" href="staysafe.html">
+    <link rel="html" type="text.html" href="meettheteam.html">
+    <link rel="html" type="text.html" href="index.html">
+    <link href="https://fonts.googleapis.com/css?family=Amaranth|EB+Garamond|Playfair+Display" rel="stylesheet">
+  </head>
+
+  <body>
+<!-- heading -->
+  <div class="topbanner">
+    <div class="top">
+      <h1>S.A.F.E. on Campus</h1>
+      <h2 id="SAFE">Sexual Assault Finally Ends</h2>
+    </div>
+  <!-- website tabs -->
+      <div id="tabs">
+        <div id="hometab" class="tab">
+          <a href="index.html"><h2 id="tabstyle">Home</h2></a>
+        </div>
+
+        <div id="staysafetab" class="tab">
+          <a href="staysafe.html"><h2 id="tabstyle">Stay Safe</h2></a>
+        </div>
+
+        <div id="shareyourstorytab" class="tab">
+          <a href="shareyourstory.html"><h2 id="tabstyle">Share Your Story</h2></a>
+        </div>
+
+        <div id="meettheteamtab" class="tab">
+          <a href="meettheteam.html"><h2 id="tabstyle">Meet the Team</h2></a>
+        </div>
+      </div>
+
+    </div>
+    <div class="floatComments">
+        <br>
+        <h3 id="advice">Feel free to share your <br>personal stories and advice.</h3>
+        <br>
+        <form id="frm1" name="form1" action="/action_page.php">
+          Name: <input id="name" class="fillout" type="text" name="name" value=""><br>
+          <input type = "radio" id="anonymous" name = "rad1"><label for="anonymous">Remain Anonymous</label><br>
+          Comment:
+          <br>
+          <textarea id="comment" class="fillout" rows="10" cols="50" name="comment">
+
+          </textarea>
+        </form>
+
+        <button id="button" onclick="submitForm()">Submit</button>
+      </div>
+
+        <div class="floatComments" id="stories"></div>
+
+        <script>
+        // function getAnon(){
+        //   var anon = document.getElementById("anonymous").value;
+        //   var name = document.createElement('h3');
+        //   namespan.innerHTML = "Anonymous";
+        //   story.appendChild(name);
+        // }
+
+        function submitForm() {
+            var story = document.createElement('div');
+            story.className = "story";
+            var y = document.getElementById("comment").value;
+            var comment = document.createElement('h4');
+            comment.innerHTML = y;
+            story.appendChild(comment);
+
+            var x = document.getElementById("name").value;
+
+            if (document.getElementById("anonymous").checked == true){
+              x = "Anonymous";
+            }
+
+            var namespan = document.createElement('span');
+            namespan.innerHTML = x;
+
+            var submitspan = document.createElement('span');
+            submitspan.innerHTML = "Submitted by: "
+
+            var name = document.createElement('h3');
+            name.appendChild(submitspan);
+            name.appendChild(namespan);
+            story.appendChild(name);
+
+            document.getElementById("stories").appendChild(story);
+            document.getElementById('name').value = "";
+            document.getElementById('comment').value="";
+
+            document.getElementById("anonymous").checked = false;
+        }
+        </script>
+
+  </body>
+</html>

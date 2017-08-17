@@ -4,36 +4,10 @@
   clear: both;
 }
 
-html {
-  font-family: 'Oxygen', sans-serif;
-}
-
 *,
 *:after,
 *:before {
   box-sizing: border-box;
-}
-
-img {
-height:auto;
-width: 100%;
-}
-
-p.source {
-  font-size: 1vw;
-  word-wrap: break-word;
-  color: #dfdfdf;
-}
-
-h3 {
-  font-size: 2.6vw;
-  margin-top: 0;
-  font-weight: 300;
-}
-
-p {
-  font-size: 1.6vw;
-  color: #dfdfdf;
 }
 
 /*** The timeline styles and structure ***/
@@ -42,7 +16,8 @@ p {
   min-height: 1px;
   position: relative;
   height: 100vh;
-  margin-bottom: 100px;
+  max-height: 700px;
+  margin-bottom: 50px;
 }
 
 .timeline {
